@@ -94,9 +94,7 @@ export function useBookDetail(id_book) {
     if (ext === "pdf") {
       window.open(book.file, "_blank");
     } else if (ext === "epub") {
-      // Redirigir a página de lector EPUB
       window.open(`/reader/${book.id_book}`, "_blank")
-      navigate(`/reader/${book.id_book}`);
     } else {
       console.error("Formato no soportado. Solo PDF y EPUB");
     }

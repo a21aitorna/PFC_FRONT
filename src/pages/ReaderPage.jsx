@@ -16,6 +16,8 @@ export default function ReaderPage() {
     loadBook();
   }, [id_book]);
 
+  console.log(`URL LIBRO: ${bookUrl}`);
+  
   if (!bookUrl) return <div>Cargando libro...</div>;
 
   return (

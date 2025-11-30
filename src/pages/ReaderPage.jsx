@@ -11,13 +11,20 @@ export default function ReaderPage() {
   useEffect(() => {
     const loadBook = async () => {
       const res = await axios.get(`${API_BASE}/books/detail-book/${id_book}`);
-      setBookUrl(res.data.file);
+      
+      let url = res.data.file;
+
+      if (url.startsWith("http://")) {
+        url = url.replace("http://", "https://");
+      }
+      
+      setBookUrl(url);
     };
     loadBook();
   }, [id_book]);
 
   console.log(`URL LIBRO: ${bookUrl}`);
-  
+
   if (!bookUrl) return <div>Cargando libro...</div>;
 
   return (

@@ -69,7 +69,7 @@ export default function Login() {
               <p data-testid="errorReason" className="text-red-500 text-sm font-medium">{error}</p>
             )}
 
-            <Button type="submit">{es.login.loginButton}</Button>
+            <Button type="submit" data-testid="loginRegisterButton">{es.login.loginButton}</Button>
           </form>
         </Card>
       </div>

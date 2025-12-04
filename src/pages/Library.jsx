@@ -189,12 +189,15 @@ export default function Library() {
           <PanelCard className="flex-1 flex flex-col max-h-[calc(100vh-8rem)]">
             {/* Encabezado: Mi Librería + Añadir libro */}
             <div className="flex items-center justify-between mb-4">
-              <h2 className="text-lg font-semibold text-gray-800" data-testid="usersLibraryName">
-                {libraryName || `${es.library.defaultLibraryName}`}<span className="text-sm text-gray-500">
-                
+              <h2 className="text-lg font-semibold text-gray-800">
+                <span data-testid="usersLibraryName">
+                  {libraryName || `${es.library.defaultLibraryName}`}
+                </span>
+                <span className="text-sm text-gray-500">
                   ({filteredBooks.length} {es.library.numberBooks})
                 </span>
               </h2>
+
 
               {isOwner && (
                 <button

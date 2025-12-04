@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { API_BASE } from "../config/api";
-import { useUser } from "../context/userProvider";
 
 export function useAdminPanel() {
   const [users, setUsers] = useState([]);

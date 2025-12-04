@@ -6,7 +6,6 @@ import { API_BASE } from "../config/api";
 export function useBookDetail(id_book) {
   
   const loggedUser = JSON.parse(localStorage.getItem("user")) || null;
-  const navigate = useNavigate();
   const [book, setBook] = useState(null);
   const [reviews, setReviews] = useState([]);
   const [reviewText, setReviewText] = useState("");

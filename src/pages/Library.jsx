@@ -1,4 +1,4 @@
-import { Search, Plus, Star, Download, Trash2, Home } from "lucide-react";
+import { Search, Plus, Download, Trash2, Home } from "lucide-react";
 import es from "../assets/i18n/es.json";
 import { useParams } from "react-router-dom";
 import { useLibrary } from "../hooks/libraryHook";

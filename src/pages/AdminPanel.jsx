@@ -28,7 +28,7 @@ export default function AdminPanel() {
             <thead className="bg-gray-200 sticky top-0 z-10">
               <tr>
                 <th className="p-3 text-left">{es.adminPanel.columnUser}</th>
-                <th className="p-3 text-left">{es.adminPanel.columnUser}</th>
+                <th className="p-3 text-left">{es.adminPanel.columnName}</th>
                 <th className="p-3 text-left">{es.adminPanel.columnStatus}</th>
                 <th className="p-3 text-left">{es.adminPanel.columnActions}</th>
               </tr>

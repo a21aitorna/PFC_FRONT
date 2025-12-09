@@ -1,6 +1,7 @@
-export default function Card({ icon: Icon, title, subtitle, children, className = "" }) {
+export default function Card({ icon: Icon, title, subtitle, children, className = "", ...props }) {
   return (
     <div
+      {...props}
       className={`relative z-10 rounded-2xl p-6 sm:p-8 w-full ${className}`}
     >
       {Icon && (

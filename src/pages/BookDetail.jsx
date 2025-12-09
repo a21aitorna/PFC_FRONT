@@ -144,7 +144,7 @@ export default function BookDetail() {
             {/* CARD 3: Lista de reseñas */}
             <div className="w-full flex flex-col gap-4 max-h-[500px] overflow-y-auto pr-2">
               {Array.isArray(reviews) && reviews.map((review) => (
-                <Card key={review.id_review} className="w-full p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                <Card data-testid="cardReview" key={review.id_review} className="w-full p-6 bg-white rounded-lg shadow-sm border border-gray-100">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-full bg-indigo-600 flex items-center justify-center flex-shrink-0 text-white">
                       <User size={24} />

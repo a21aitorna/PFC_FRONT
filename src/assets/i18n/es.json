@@ -19,6 +19,27 @@
         "blockedUserLogin": "El usuario está bloqueado. No puede iniciar sesión",
         "deletedUserLogin": "El usuario está en proceso de borrado. No puede iniciar sesión"
     },
+
+    "termsUse":{
+        "returnButton": "Volver",
+        "termsUseName": "Aviso Legal",
+        "propertyFrom": "La aplicación es propiedad de ",
+        "contact": "Contacto: ",
+        "functionality": "La aplicación permite gestionar y compartir libros de forma legal y segura",
+        "privacity": "Privacidad",
+        "privacityPhrase1": "Se recogen nombres, apellidos y fechas de nacimiento para gestionar el perfil de usuario.",
+        "privacityPhrase2": "Estos datos se tratan de forma segura y confidencial, conforme a GDPR y LOPDPGDD.",
+        "privacityPhrase3": "Nunca se comparten con terceros sin la autorización pertinente.",
+        "privacityPhrase4": "El usuario puede acceder, rectificar o borrar sus datos escribiendo a:",
+        "cookies": "Cookies",
+        "cookies1": "Usamos cookies para mejorar la experiencia de usuario y el funcionamiento de la aplicación.",
+        "cookies2": "Puedes aceptar, rechazar o gestionar las cookies a través de la configuración de tu navegador o desde el panel de gestión de cookies de la app.",
+        "intelectualProperty": "Propieda Intelectual",
+        "intelectualProperty1":"Al poder todos los usuarios subir libros, estos tendrán que cumplir con la normativa vigente española de propiedad intelectual.",
+        "intelectualProperty2": "No se permitirá subir ni compartir obras protegidas por derechos de autor sin el permiso del propietario.",
+        "intelectualProperty3": "Si se detecta contenido que incumpla la normativa, será eliminado de la plataforma, tomando las medidas oportunas contra el usuario infractor.",
+        "lastUpdate": "Ultima actualización: "
+    },
     
     "register":{
         "title": "Registro de usuario",

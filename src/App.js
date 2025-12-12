@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
+import TermsUse from "./pages/TermsUse";
 import Register from "./pages/Register";
 import RecoverPasswordPageOne from "./pages/RecoverPasswordPageOne";
 import RecoverPasswordPageTwo from "./pages/RecoverPasswordPageTwo";
@@ -20,6 +21,7 @@ function App() {
           <Route element={<PublicRoute />}>
             <Route path="/" element={<Navigate to="/login" />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/terms-of-use" element={<TermsUse />} />
             <Route path="/register" element={<Register />} />
             <Route path="/recover-password-verify-user" element={<RecoverPasswordPageOne />} />
             <Route path="/recover-password-enter-new-password" element={<RecoverPasswordPageTwo />} />

@@ -31,6 +31,9 @@
         "privacityPhrase2": "Estos datos se tratan de forma segura y confidencial, conforme a GDPR y LOPDPGDD.",
         "privacityPhrase3": "Nunca se comparten con terceros sin la autorización pertinente.",
         "privacityPhrase4": "El usuario puede acceder, rectificar o borrar sus datos escribiendo a:",
+        "securityInformation": "Seguridad de la información",
+        "securityInformationPhrase1":"Las contraseñas y respuestas de seguridad se almacenan de forma segura mediante algoritmos de hash, para que no puedan ser recuperadas en texto plano.",
+        "securityInformationPhrase2": "Se aplican medidas técnicas y organizativas para proteger los datos de accesos no autorizados, pérdida o divulgación.",
         "cookies": "Cookies",
         "cookies1": "Usamos cookies para mejorar la experiencia de usuario y el funcionamiento de la aplicación.",
         "cookies2": "Puedes aceptar, rechazar o gestionar las cookies a través de la configuración de tu navegador o desde el panel de gestión de cookies de la app.",
@@ -157,7 +160,4 @@
         "deleteReview": "Eliminar",
         "defaultTextReview": "No hay opiniones todavía. ¡Sé el primero en dejar una reseña!"
     }
-    
-
-
 }
